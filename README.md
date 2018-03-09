@@ -5,8 +5,8 @@ Welcome to the Sudoku Checker!
 
 **How to run:**
 
-1. Run the command make
-2. Run ./puzzle
+1. Run the command:  ```make```
+2. Run:  ```./puzzle```
 
 **Text Files:**
 
@@ -17,8 +17,8 @@ Feel free to copy paste the other 2 text files into puzzle.txt, or to edit puzzl
 
 **Information about the program:**
 
-* 0 means a blank space
-* Checks each row, column, and sub grid individually with threads (for a total of 27 threads)
+* 0 means a blank space in the text file
+* Checks each row, column, and sub grid with threads (for a total of 27 threads)
 * It will display which rows, columns, or sub grids are unvalid
 * Last line states whether the whole sudoku puzzle is valid
 * The programs threads check if a number appears twice in a row column or thread, if it does it returns a false
