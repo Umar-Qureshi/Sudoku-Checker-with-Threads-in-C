@@ -17,6 +17,7 @@ Feel free to copy paste the other 2 text files into puzzle.txt, or to edit puzzl
 
 **Information about the program:**
 
+* It is written in C with threads
 * 0 means a blank space in the text file
 * Checks each row, column, and sub grid with threads (for a total of 27 threads)
 * It will display which rows, columns, or sub grids are unvalid
